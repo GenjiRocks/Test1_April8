@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test April 8</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1 id="heading">2, Styling Forms - Test</h1>
+    
+    <div class="main">
+       
+        <form action="" class="section_form">
+            <div class="section section1">
+                <h3 style="margin-bottom: 10px;">Section 1</h3>
+                <label for="name" style="margin-right: 50px;">Name:</label>
+                <input type="text" id="name" name="name" required>
+                <br>
+                <label for="email" style="margin-right: 40px;">Email:</label>
+                <input type="email" id="email" name="email" required>
+                <br>
+                <label for="password" style="margin-right: 10px;">Password:</label>
+                <input type="password" id="password" name="password" required>
+            </div>
+
+            <div class="section section2">
+
+                <h3 style="margin-bottom: 10px;">Section 2</h3>
+                <label for="gender">Gender:</label>
+                
+                <input type="radio" id="male" name="gender" value="male" required>
+                <label for="male">Male</label>
+                <input type="radio" id="female" name="gender" value="female" required>
+                <label for="female">Female</label>
+                <br>
+                <label for="age">Age:</label>
+                <input type="number" id="age" name="age" min="18" max="99" required>
+
+            </div>
+
+            <div class="section section3">
+
+                <h3 style="margin-bottom: 10px;">Section 3</h3>
+                <label for="interests">Interests:</label>
+                <input type="checkbox" id="sports" name="interests" value="sports">
+                <label for="sports">Sports</label>
+                <input type="checkbox" id="music" name="interests" value="music">
+                <label for="music">Music</label>
+                <br>
+                <label for="country">Country:</label>
+                <select id="country" name="country" required>
+                    <option value="">Select Country</option>
+                    <option value="usa">USA</option>
+                    <option value="uk">UK</option>
+                    <option value="canada">Canada</option>
+                </select>
+
+            </div>
+        
+            <button type="submit">Submit</button>
+
+        </form>
+         
+    </div>
+    
+
+
+</body>
+</html>
